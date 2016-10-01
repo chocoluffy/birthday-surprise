@@ -13,16 +13,35 @@
             text-decoration: none;
             font-size: 20px;
         }
+        #logo{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 50%;
+            width: 40%;
+            top: 20%;
+        }
+
+        #canvas{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            top: 85%;
+        }
     </style>
 </head>
 <body>
-    <div class="nav-on">
+<!--     <div class="nav-on">
         <ul class="menu">
             <li class="home"><a href="file:///Users/yushunzhe/Desktop/%E5%89%8D%E6%AE%B5%E5%AE%9E%E6%88%98%E6%97%A5%E8%AE%B0/html5%5Ccss3%E7%89%B9%E6%95%88/%E7%89%B9%E6%95%88/canvas%E6%B4%BE%E5%AF%B9%E6%97%8B%E8%BD%AC%E7%9B%B8%E5%86%8C/index.htm">Super Surprise (~￣▽￣)~</a></li>
         </ul>
+    </div> -->
+    <div id="logo">
+        <img src="logo.svg" alt="">
     </div>
     <canvas id="canvas" style="display:block;margin:50px auto;">
-        当前浏览器不支持Canvas，请更换浏览器后再试
+        
     </canvas>
 
     <script src="digit.js"></script>

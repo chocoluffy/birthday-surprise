@@ -5,8 +5,9 @@ var MARGIN_TOP = 60;
 var MARGIN_LEFT = 30;
 var PARTICLE_COUNT=10;
 
+
 const endTime = new Date();
-endTime.setTime(endTime.getTime() + 3600 *1000);
+endTime.setTime(endTime.getTime() + 1800 *1000);
 //设定刚刚好是倒计时一小时
 var curShowTimeSeconds = 0
 
